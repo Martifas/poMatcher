@@ -48,15 +48,15 @@ Sample output (in `output.csv`):
 docker build -t po-matcher .
 ```
 
-### 2. Run the project"
+### 2. Run the project:
 
-Linux/macOS/WSL:
+   **Linux/macOS/WSL:**
 
 ```sh
 docker run --rm -v "$PWD/output:/app/output" po-matcher
 ```
 
-Windows (PowerShell):
+   **Windows (PowerShell):**
 
 ```sh
 docker run --rm -v "%cd%/output:/app/output" po-matcher
