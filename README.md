@@ -59,7 +59,7 @@ docker run --rm -v "$PWD/output:/app/output" po-matcher
    **Windows (PowerShell):**
 
 ```sh
-docker run --rm -v "%cd%/output:/app/output" po-matcher
+docker run --rm -v "${PWD}\output:/app/output" po-matcher
 ```
 
 The resulting output.csv will appear in your local output/ folder.
